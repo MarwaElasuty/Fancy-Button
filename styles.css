@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: linear-gradient(to bottom right, #3899ee, #38e2ee 75%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    padding: 20px;
+    background-color: white;
+    border-style: none;
+    color: #3899ee;
+    font-weight: 600;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+button[name="hover-btn1"]{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+button[name="hover-btn1"]:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
+
+
+button[name="hover-btn2"]{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+
+}
+
+button[name="hover-btn2"]:hover{
+    transform: scale(0.90);
+}
